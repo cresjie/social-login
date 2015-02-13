@@ -1,6 +1,6 @@
 {
     "name": "cresjie/social-login",
-    "description": "Authentication with Social Services API",
+    "description": "Laravel authentication with Social Services API",
     "keywords" : ["laravel","social-login","socialLogin","social","oauth","oauth2","google","facebook","github","yahoo"],
     "authors": [
         {
