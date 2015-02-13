@@ -1,0 +1,24 @@
+{
+    "name": "cresjie/social-login",
+    "description": "Authentication with Social Services API",
+    "keywords" : ["laravel","social-login","socialLogin","social","oauth","oauth2","google","facebook","github","yahoo"],
+    "authors": [
+        {
+            "name": "Cres Jie",
+            "email": "cresjie@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Cresjie\\SocialLogin\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
