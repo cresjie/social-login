@@ -1,2 +1,2 @@
 # social-login
-Laravel Authentication with Social Services API like Google, Facebook, Yahoo, Github
+Laravel 4 Authentication with Social Services API like Google, Facebook, Yahoo, Github
