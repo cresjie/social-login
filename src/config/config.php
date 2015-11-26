@@ -66,5 +66,10 @@ return [
 			$result['provider_user_id'] = $result['id'];
 			return $result;
 		}
+	],
+	'facebook' => [
+		'client_id' => '',
+		'client_secret' => '',
+		'redirect_uri' => '',
 	]
 ];
