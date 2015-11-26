@@ -110,3 +110,9 @@ how? just set **filter_result** in the *config file* with something like:
 ```
 
 we've just add another key to the *result value* to have a uniform call.. cool!
+
+
+Access Token
+---------
+After the user successfully authenticate the login. You can get the access token by calling the method:
+**SocialLogin::getAccessToken()**
