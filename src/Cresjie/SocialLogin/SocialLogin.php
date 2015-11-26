@@ -7,7 +7,10 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Input;
 
+
 class SocialLogin{
+
+	static $data;
 	
 	
 	public function login($service){
@@ -54,7 +57,7 @@ class SocialLogin{
 
 
 	public static function sendRequest( $host,array $fields, $method = 'get', $extra_curl = []){
-
+		
 		$curl = curl_init();
 
 		switch ( strtolower($method) ) {
@@ -104,8 +107,13 @@ class SocialLogin{
 
 	} // /sendRequest
 
-	
+	static public function setAccessToken($token){
+		Session::put('social_login_data.access_token',$token);	
+	}
+
+	static public function getAccessToken(){
+		return Session::get('social_login_data.access_token');
+	}
 
 	
 }
-
