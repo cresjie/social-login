@@ -2,6 +2,9 @@
     "name": "cresjie/social-login",
     "description": "Laravel authentication with Social Services API",
     "keywords" : ["laravel","social-login","socialLogin","social","oauth","oauth2","google","facebook","github","yahoo"],
+    "homepage"   : "https://github.com/cresjie/social-login",
+    "type": "laravel-package",
+    "license": "MIT"
     "authors": [
         {
             "name": "Cres Jie",
