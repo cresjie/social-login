@@ -13,7 +13,7 @@ Installation via Composer
 Add this to your composer.json file, in the require object:
 
 ```javascript
- "cresjie/social-login": "dev-master"
+ "cresjie/social-login": "v1.0.0.0"
 ```
 After that, run composer install to install the package.
 
